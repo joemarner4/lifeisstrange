@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Life is Strange</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      
+
+      .container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+      }
+
+      .columnleft, .columnright {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+      }
+
+      .column-container {
+        overflow-y: auto; 
+        max-height: 100vh; /* Set a maximum height for each column to prevent them from taking up too much space */
+      }
+
+      .firstimage .hover-container, .secondimage .hover-container {
+        margin: 20px; /* Add some spacing between images */
+      }
+    </style>
+</head>
+<body>
+    <div class="description">
+        <div>
+
+            <p>
+                <div class="hover-container">
+                    <img src="images/book.png" alt="Image" />
+                </div>
+                Photographer <i>Rob Moorees</i> curated 235 special photos from the <i>Spaarnestad Collection at The Hague’s National Archive</i>. Temporarily released from the archive, these photos became his focus while at Spaarnestad Photo. His aim: to rejuvenate both the photos and their stories. Many photos came from <i>Het Leven Geïllustreerd</i>, a weekly Dutch magazine (1906-1941). I selected 12 images from the book <i>Life is Strange</i>, while focusing on the human body as a main subject.
+                <br><br><br>
+
+            <br>
+            </p>
+        </div>
+    </div>
+
+<div class="container">
+<div class="columnleft">
+<div class="column-container"> 
+<div class="firstimage">
+    <div class="hover-container">
+    <div class="hover-container">
+        <img src="images/womandiagram.png" alt="Image" />
+                <p class="hover-text">A portrait of the film star Sylvia Sydney, illustrating an aricle on the attributes of the <i>perfect face</i>. Sylvia Sydney's face was chosen as the ideal of female beauty because of its symmetry and perfectly oval shape. Hollywood 1934. </p><br>
+                        </div><br>
+                        <img src="images/skinman.png" alt="Image" />
+                        <p class="hover-text">A man able to pull his skin over his own ears, probably due to burns. He made a living by appearing in theatres and music halls. Berlin 1927.</p><br>
+                    </div><br>
+                    <div class="hover-container">
+                        <img src="images/manball.png" alt="Image" />
+                        <p class="hover-text">A woman in basketball clothing, with face and knee protectors. USA 1927.   </p><br>
+                    </div><br>
+                    <div class="hover-container">
+                        <img src="images/balls.png" alt="Image" />
+                        <p class="hover-text">Unexplained stones. Probably meteors, that fell from the sky. Cincinatti, Ohio 1938.  </p><br>
+                    </div><br>
+                    <div class="hover-container">
+                        <img src="images/womancards.png" alt="Image" />
+                        <p class="hover-text">Woman wearing a mask so as not to be recognized while playing poker for money. London 1932.</p><br>
+                    </div><br>
+                    <div class="hover-container">
+                        <img src="images/baby.png" alt="Image" />
+                        <p class="hover-text">This crying baby's parents belong to a Hungarian sect. Half-moons have been carved into the baby's cheeks: a so called 'blood christening'. The baby is a son of Andreas Jankoe, a rich man from Oroshaza. Hungary 1936.</p><br>
+                    </div><br>
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="columnright">
+            <div class="column-container">
+                <div class="secondimage">
+                    <div class="hover-container">
+                        <img src="images/manear.png" alt="Image" />
+                        <p class="hover-text">Race research in the Third Reich: a special apparatus is used to determine the position of the ears with respect to facial features in the Kaiser-Wilhelm-Institut. Berlin 1933.</p><br>
+                    </div>
+                    <br>
+                    <div class="hover-container">
+                        <img src="images/rope2.png" alt="Image" />
+                        <p class="hover-text">In Britain, a bag of sand was traditionally suspended from the hangman's noose to pre-stretch the rope on the day before the execution. The British legal system was amended in 1939 and many corporal punishments were abolished. Miami 1939. </p><br>
+                    </div><br>
+                    <div class="hover-container">
+                        <img src="images/eye.png" alt="Image" />
+                        <p class="hover-text">The 'Divine Eye', the most imporant symbol in Caodaism, a religion established officially in 1926 and practiced in Indochina (todays Vietnam). Caodaism contains elements of Christianity, Buddhism, Confuciarism, Taoism and Islam. My Tho, Vietnam 1938. </p><br>
+                    </div><br>
+                    <div class="hover-container">
+                        <img src="images/hungmen.png" alt="Image" />
+                        <p class="hover-text">Russian partisans hung by the Germans. This photograph is said to have been found in the jacket pocket of a dead German soldier. Soviet Union 1941. </p><br>
+                    </div><br>
+                    <div class="hover-container">
+                        <img src="images/back.png" alt="Image" />
+                        <p class="hover-text">Choosing the <i>Most beautiful back in America</i>: jury member Dr. Coney measures the back of the winner, Florette Dupree. New York 1924.</p><br>
+                    </div><br>
+                    <div class="hover-container">
+                        <img src="images/pullinghead.png" alt="Image" />
+                        <p class="hover-text">A man bends an iron bar around the neck of George Challart, <i>The strongest man in London.</i> London 1935.</p><br>
+                    </div><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div id="cursor"></div>
+
+    <script type="module" src="assets/js/index.js"></script>
+</body>
+</html>

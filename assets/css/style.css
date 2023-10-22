@@ -1,0 +1,96 @@
+body, html {
+  background-color: #f0eeee;
+  color: #000000;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  font-family:'Times New Roman', Times, serif;
+  }
+
+i {
+    font-style: italic;
+}
+
+.description {
+  font-size: 71px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.column-container {
+  overflow-y: scroll;
+  max-height: 100vh;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.bodytext {
+  font-size: 71px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.description {
+  font-size: 71px;
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  transform: rotate(0.7deg);
+  font-size: 71px;
+  text-align: center;
+  padding: 10px;
+}
+
+.titlebook {
+  font-size: 71px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 70vh;
+
+}
+
+.columnleft {
+  flex: 1;
+  width: 50%;
+}
+
+.columnright {
+  flex: 1;
+  width: 50%;
+}
+
+.hover-text {
+  text-align: center;
+  font-size: 71px;
+  z-index: 1; 
+  position: relative; 
+}
+
+.column-container {
+  overflow-y: scroll;
+  max-height: 100vh; 
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.column-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.column-container::-webkit-scrollbar-thumb {
+  background-color: #000000; 
+  border-radius: 6px; 
+  height: 50px; 
+  min-height: 50px;
+}
+
+.column-container::-webkit-scrollbar-track {
+  background-color: #f0eeee;
+  height: 200px;
+}
